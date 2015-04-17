@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.11.2.js"></script>
     <script src="js/scripts.js"></script>
-    <title></title>
+    <title> Fiorentino Pizza Co.</title>
   </head>
-  <body>
+<body>
+  <header>
+    <h1>Fiorentino Pizza Co.</h1>
+  </header>
+  <div class="container-fluid">
+    <div class="row text-center">
+      <h3><i> "Mama Mia! Order a Frig'n Pizza already!" </i></h3>
 
-  </body>
+      <div class="col-md-6">
+        <form id="input">
+          <div class="form-group">
+            <label for="topping">We only gots two kinds:</label>
+            <br>
+            <input type="radio" name="topping" value="cheese">Cheese <i>~$12.95</i>
+            <br>
+            <input type="radio" name="topping" value="pepperoni">Pepperoni <i>~$14.95</i>
+            <br>
+          </div>
+          <button type="submit" class="btn btn-info">Place Your Order</button>
+        </form>
+      </div>
+
+      <div id="order">
+        <h3>You ordered: <span id="order" class="text-info"></span></h3>
+      <h3>The cost of your order is: $<span id="cost" class="text-info"></span></h3>
+      </div>
+
+    </div>
+  </div>
+</body>
 </html>

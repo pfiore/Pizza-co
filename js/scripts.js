@@ -1,4 +1,3 @@
-
 var pizzaOrder = {
   balance: 0,
   pepperoni_pizza: false,
@@ -24,9 +23,6 @@ $(document).ready(function() {
     } else {
       yourOrder.pepperoni_pizza = false;
     }
-
-    alert(yourOrder.topping());
-    alert(yourOrder.balance);
 
     $('#order').text(yourOrder.topping());
     $('#balance').text(yourOrder.balance);

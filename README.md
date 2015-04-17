@@ -1,20 +1,21 @@
 # Name: Patrick Fiorentino
-# Date:4/17/2015
+### Date:4/17/2015
 
-Description:
+Description: JavaScript OO Assessment
 
-# SetUp and Use
+## SetUp and Use
 In order to use this program you will need web browser
 
 SetUp
-1. git clone https://github.com/bjkropff/jsBasic.git onto your desktop.
-2. right-click/open index.html with web browser.
+1. git clone https://github.com/pfiore/Pizza-co.git onto your desktop.
+2. open Pizza-co folder.
+3. right-click/open index.html with web browser.
 
-# Copyright (c) 2015 (Patrick Fiorentino)
+## Copyright (c) 2015 (Patrick Fiorentino)
 
-# The MIT License (MIT)
+## The MIT License (MIT)
 
-# PERMISSION*
+## PERMISSION*
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
 the Software without restriction, including without limitation the rights to
@@ -25,7 +26,7 @@ do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
  copies or substantial portions of the Software.
 
-# LICENSING*
+## LICENSING*
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
